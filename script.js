@@ -1,21 +1,19 @@
-// JavaScript for passcode input and picture puzzle section
+// JavaScript for passcode input and navigation
 document.addEventListener("DOMContentLoaded", function() {
     const passcodeInput = document.getElementById("passcode-input");
     const passcodeSubmit = document.getElementById("passcode-submit");
 
     passcodeSubmit.addEventListener("click", function() {
         const enteredPasscode = passcodeInput.value;
-        const correctPasscode = "meow"; // Change this to your desired passcode
+        const correctPasscode = "yourpasscode"; // Change this to your desired passcode
 
         if (enteredPasscode === correctPasscode) {
-            // Proceed to the next section (e.g., picture puzzle)
-            alert("Passcode correct! You may proceed.");
+            // Navigate to the next page (picture puzzle)
+            window.location.href = "picture_puzzle.html";
         } else {
             alert("Incorrect passcode. Please try again.");
         }
     });
-
-    // Add your JavaScript code for picture puzzle section here
 });
 
 // JavaScript for This or That questions
@@ -49,4 +47,3 @@ function playWrongGIF() {
         wrongGIF.style.display = 'none';
     }, 5000); // Adjust timing as needed
 }
-
