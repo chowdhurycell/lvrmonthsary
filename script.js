@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     passcodeSubmit.addEventListener("click", function() {
         const enteredPasscode = passcodeInput.value;
-        const correctPasscode = "yourpasscode"; // Change this to your desired passcode
+        const correctPasscode = "meow"; // Change this to your desired passcode
 
         if (enteredPasscode === correctPasscode) {
             // Navigate to the next page (picture puzzle)
