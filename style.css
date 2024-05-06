@@ -15,9 +15,17 @@ header, footer {
 
 main {
     padding: 20px;
+    text-align: center; /* Center main content */
 }
 
 section {
+    margin-bottom: 20px;
+}
+
+.passcode-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
