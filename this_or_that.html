@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This or That Questions</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>This or That Questions</h1>
+    </header>
+
+    <main>
+        <div id="question-container">
+            <div class="question">
+                <h3>Question 1:</h3>
+                <div class="options">
+                    <div class="option" id="option1">
+                        <button onclick="checkAnswer(1)">Option A</button>
+                    </div>
+                    <div class="option" id="option2">
+                        <button onclick="checkAnswer(2)">Option B</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more questions similarly -->
+        </div>
+        <img id="wrong-gif" src="" alt="Wrong GIF" style="display: none;">
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Puzzle Website</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
