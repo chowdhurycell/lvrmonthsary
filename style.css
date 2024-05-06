@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f2; /* Baby pink background */
+    color: #cc0066; /* Darker shade of pink for text */
+}
+
+header, footer {
+    background-color: #cc0066; /* Darker shade of pink for header and footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+input[type="password"] {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #ffccf2; /* Light pink background for passcode input */
+    border: 1px solid #cc0066; /* Darker pink border */
+}
+
+input[type="password"]:focus {
+    outline: none;
+    border-color: #ff66b3; /* Lighter shade of pink border on focus */
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #ff99cc; /* Lighter shade of pink for buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff66b3; /* Slightly darker shade of pink on hover */
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #cc0066; /* Darker shade of pink for footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
